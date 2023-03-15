@@ -1,0 +1,220 @@
+@media (max-width:1300px) {
+
+    /* footer  */
+
+    .footer_container {
+        height: 800px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer_container>div {
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footcontacts  {
+        align-items: center;
+    }
+    footer {
+        height: 1000px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+ /* -----------------------------------ADVICE------------------------------------ */
+    
+
+    .advice_container {
+        height: 900px;
+    }
+    .advicecontent  {
+        height: 900px;
+    }
+    .adviceblocks {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .adviceblock {
+        width: 100%;
+    }
+    .adviceblock>img {
+        width: 170px;
+        max-height: 220px;
+        margin-bottom: 100px;
+    }
+    .adviceblocktexts>h1 {
+        font-size: 15px;
+    }
+    .adviceblocktexts>h2 {
+        font-size: 10px;
+    }
+    .adviceblocktexts {
+        margin-bottom: 100px;
+    }
+    .adviceblockinfo {
+        margin-bottom: 100px;
+    }
+    .adviceblocktexts_cont {
+        justify-content: center;
+    }
+
+    /* about us  */
+
+
+    .aboutcontent {
+        flex-direction: column-reverse;
+    }
+    .abouttext {
+        align-items: center;
+        text-align: center;
+        max-width: 100%;
+    }
+    .aboutimg>img {
+        max-width: 50%;
+    }
+    .aboutimg {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media (max-width: 434px) {
+    .main>h3 {
+        font-size: 30px;
+
+    }
+ /* -----------------------------------HOTELS------------------------------------ */
+
+
+}
+
+@media (max-width: 1000px) {
+
+    /* -----------------------------------SEARCH------------------------------------ */
+
+    .search {
+        margin-top: 50px;
+        border-radius: 13px;
+        z-index: 2;
+        position: relative;
+        background-color: #FFFFFF;
+        max-width: 80%;
+        min-width: 70%;
+        height: 200px;
+        display: flex;
+    
+    }
+    
+    .searchcontainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .searchtextcontainer {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 21px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 90%;
+    }
+    .Section {
+       padding-right: 5%;
+    }
+    .Section>h2 {
+        font-family: 'poppins';
+        font-size: 13px;
+    }
+    .searchtextcontainer>div>h3 {
+        color: #818080;
+    }
+    
+    .searchimg {
+        background-color: #7B61FF;
+        width: 90%;
+        height: 70px;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .searchimg>img {
+        margin-right: 10px;
+        transition: all 0.3s ease 0s;
+    }
+    .searchimg:hover {
+        width: 92%;
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+    } 
+    
+}
+
+@media (max-width: 768px) {
+    .destcontainer {
+        height: auto
+    }
+    .destcontent {
+        height:auto
+    }
+    .destblocks {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 880px) {
+    .advice_container {
+        height: auto;
+    }
+    .advicecontent {
+        height: auto;
+    }
+    .adviceblock {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .adviceblock>img {
+        margin: 0;
+    }
+    .adviceblocktexts {
+        margin: 0px 20px;
+        text-align: center;
+    }
+    .adviceblocktexts_cont {
+        align-items: center;
+    }
+}
+
+@media (max-width: 424px) {
+    .footmail>img {
+        max-width: 100%;
+    }
+    .Section>h2 {
+        font-size: 8px;
+    }
+    .Section>h1 {
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .active_container {
+        height: auto;
+    }
+    .activecontent {
+        height: auto;
+    }
+    .activeblocks {
+        flex-wrap: wrap;
+    }
+}
