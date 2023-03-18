@@ -1,6 +1,6 @@
 let btn = document.querySelector('.btn')
 function btnFunc () {
-    document.location.href = 'button.html'
+    document.location.href = 'https://www.youtube.com/'
 }
 
 
